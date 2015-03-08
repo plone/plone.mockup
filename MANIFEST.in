@@ -1,0 +1,3 @@
+recursive-include mockup *
+include *
+global-exclude *.pyc
