@@ -1,12 +1,10 @@
-from setuptools import setup, find_packages
-import json
+from setuptools import find_packages
+from setuptools import setup
 
-package_json = json.load(open('plone/mockup/package.json'))
-version = package_json['version']
 
 setup(
     name='plone.mockup',
-    version=version,
+    version='1.0.dev0',
     description="Plone integration package for mockup",
     long_description=open("README.rst").read(),
     classifiers=[
