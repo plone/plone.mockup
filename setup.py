@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='plone.mockup',
-    version='1.0',
+    version='1.0.1.dev0',
     description="Plone integration package for mockup",
     long_description=open("README.rst").read(),
     classifiers=[
